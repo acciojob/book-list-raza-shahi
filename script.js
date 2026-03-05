@@ -33,12 +33,12 @@ let submitBtn = document.getElementById("submit");
 submitBtn.addEventListener("click", handleSubmit);
 
 document.getElementById("book-list").addEventListener("click", function (e) {
-  if (e.target.classList.contains("delete-btn")) {
+  if (e.target.classList.contains("delete")) {
     let row = e.target.closest("tr");
     row.remove();
   }
 
-  if (e.target.classList.contains("delete-btn")) {
+  if (e.target.classList.contains("delete")) {
     let row = e.target.closest("tr");
     row.remove();
   }
