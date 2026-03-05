@@ -22,7 +22,7 @@ function handleSubmit(e) {
         <td>${title}</td>
         <td>${author}</td>
         <td>${isbn}</td>
-        <td><button class="delete-btn">Delete</button></td>
+        <td><button class="delete">Delete</button></td>
     `;
   tbody.appendChild(newRow);
   titleInput.value = "";
